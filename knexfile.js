@@ -1,6 +1,6 @@
 require('dotenv').config();
 const {
-  NODE_ENV = 'production',
+  NODE_ENV = 'development',
   DEVELOPMENT_DATABASE_URL,
   PRODUCTION_DATABASE_URL,
 } = process.env;
